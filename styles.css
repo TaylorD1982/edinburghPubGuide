@@ -1,0 +1,241 @@
+body {
+	background-color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+
+/*------------------------- Heading --------*/
+
+
+.heading {
+	font-family: "Alumni Sans Inline One", sans-serif;
+	font-size: 550%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #1D1D1;
+}
+
+@media only screen and (max-width: 700px) {
+.heading {
+	font-size: 290%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+}
+
+ /*------------------------- Icons --------*/
+
+.kittenMittens {
+	width: 150px;
+}
+
+.kittenMittens1 {
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #1D1D1;
+}
+
+@media only screen and (max-width: 700px) {
+.kittenMittens1 {
+	width: 100px;
+	border-radius: 50%;
+	border: 5px solid #1D1D1;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .kittenMittens {
+	width: 80%;
+}
+}
+
+.iconHeadingLeft {
+	text-align: center;
+	align-items: center;
+	display: flex;
+	
+}
+
+.iconHeadingRight {
+	text-align: left;
+	font-family: Courier New;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+ /*-------------------------Banner Image styling--------*/
+
+ .mobileShow {
+  display: none;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .mobileShow {
+   display: inline;
+  }
+ }
+
+ .mobileHide {
+  display: inline;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .mobileHide {
+   display: none;
+  }
+ }
+
+.bannerImage {
+	text-align: center;
+	align-items: center;
+}
+
+.bannerImage img {
+ 	width: 100px;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+.bannerImage img {
+ 	width: 60px;
+}
+}
+
+
+/*------------------------- Search function --------*/
+
+
+	/*------------------------- Hides the items in the list --------*/
+
+.name {
+	display: none;
+}
+
+
+#myInput {
+  	width: 100%;
+  	font-size: 16px;
+  	padding: 12px 10px 12px 40px;
+  	border: 3px solid #1D1D1;
+  	margin-bottom: 12px;
+	font-family: Courier New;
+}
+
+#myUL {
+  	list-style-type: none;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+ul#myUL {
+	padding: 0px;
+}
+}
+
+.search-bar {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+.search-bar {
+	padding-bottom: 20px;
+}
+}
+
+/*-------------------------Drop down contents--------*/
+
+	/*-------------------------Social Media Icons--------*/
+
+ .social-media-icons {
+  	text-align: center;
+  	background-color: white;
+  	color: black;
+ 	word-spacing: 25px;
+  	font-size: 1.75em;
+	padding-bottom: 20px;
+	padding-top: 20px;
+ }
+
+ a {
+  color: black;
+  text-decoration: none;
+ }
+
+
+.address {
+	text-align: left;
+}
+
+/*------------------------- Collapsible --------*/
+
+.center-icons {
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+	padding-bottom: 10px;
+}
+
+.collapsible {
+	background-color: white;
+  	cursor: pointer;
+  	padding: 5px;
+	padding-left: 55px;
+	border: none;
+	width: 50%;
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+	font-size: 150%;
+	transition: transform .2s
+}
+
+@media only screen and (max-width: 600px) {
+  .collapsible {
+  	padding: 1px;
+	padding-left: 20px;
+	width: 100%;
+	font-size: 100%;
+  }
+}
+
+.active, .collapsible:hover {
+	transform: scale(1.04);
+}
+
+.content {
+  	padding: 0 18px;
+  	display: none;
+  	overflow: hidden;
+  	background-color: white;
+	width: 70%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+}
+
+@media only screen and (max-width: 600px) {
+div.content {
+	padding: 0px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+  	padding: 0 18px;
+  	display: none;
+  	overflow: hidden;
+	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
