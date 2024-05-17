@@ -12,6 +12,10 @@ body {
 	}
 }
 
+rank {
+	width: 100%;
+}
+
 
 /*------------------------- Heading --------*/
 
@@ -60,11 +64,21 @@ body {
 }
 
 .iconHeadingLeft {
-	text-align: center;
 	align-items: center;
 	display: flex;
+	font-size: 150%;
 	
 }
+
+@media only screen and (max-width: 700px) {
+.iconHeadingLeft {
+	align-items: center;
+	display: flex;
+	font-size: 165%;
+	
+}
+}
+
 
 .iconHeadingRight {
 	text-align: left;
@@ -73,6 +87,36 @@ body {
 	font-weight: bold;
 }
 
+
+.stars {
+  	text-align: center;
+  	background-color: white;
+  	color: #FFD700;
+  	font-size: 1.5em;
+	padding-bottom: 15px;
+	padding-top: 0px;
+ }
+
+ a {
+  color: black;
+  text-decoration: none;
+ }
+
+.rosette {
+	position: absolute;
+	top: -70px; 
+	left: 55px; 
+	width:80px;
+}
+
+@media only screen and (max-width: 700px) {
+.rosette {
+	position: absolute;
+	top: -40px; 
+	left: -5px; 
+	width: 60px;
+}
+}
  /*-------------------------Banner Image styling--------*/
 
  .mobileShow {
@@ -161,7 +205,7 @@ ul#myUL {
   	color: black;
  	word-spacing: 25px;
   	font-size: 1.75em;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-top: 20px;
  }
 
